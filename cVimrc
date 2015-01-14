@@ -8,3 +8,19 @@ let mapleader = "\""
 
 map <Leader>r reloadTabUncached
 map <Leader>x :restore<Space>
+
+" <C-i> move cursor to the beginning of the line  beginningOfLine
+" <C-e> move cursor to the end of the line  endOfLine
+" <C-u> delete to the beginning of the line deleteToBeginning
+" <C-o> delete to the end of the line deleteToEnd
+" <C-y> delete back one word  deleteWord
+" <C-p> delete forward one word deleteForwardWord
+map <C-d> deleteForwardWord
+" <C-h> move cursor back one word backwardWord
+map <C-b> backWord
+" <C-l> move cursor forward one word  forwardWord
+map <C-w> forwardWord
+" <C-f> move cursor forward one letter  forwardChar
+map <C-l> forwardChar
+" <C-b> move cursor back one letter backwardChar
+map <C-h> backwardChar
