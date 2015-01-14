@@ -4,7 +4,7 @@ set noautofocus
 set typelinkhints
 let barposition = "bottom"
 let mapleader = "\""
-let hintcharacters = "asdfghjkl;"
+" let hintcharacters = "asdfghjkl;"
 
 map <Leader>r reloadTabUncached
 map <Leader>x :restore<Space>
