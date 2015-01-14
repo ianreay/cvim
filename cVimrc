@@ -24,3 +24,9 @@ map <C-w> forwardWord
 map <C-l> forwardChar
 " <C-b> move cursor back one letter backwardChar
 map <C-h> backwardChar
+
+" Common web pages
+
+let @@gmail_prog = 'https://gmail.com'
+
+map mail :to @@gmail_prog<CR>
