@@ -1,5 +1,10 @@
 set nohud
 set nosmoothscroll
 set noautofocus
+set typelinkhints
+let barposition = "bottom"
 let mapleader = "\""
-" testing
+let hintcharacters = "asdfghjkl;"
+
+map <Leader>r reloadTabUncached
+map <Leader>x :restore<Space>
